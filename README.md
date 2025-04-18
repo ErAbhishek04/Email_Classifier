@@ -1,13 +1,4 @@
----
-title: Email Classification & PII Masking
-emoji: 📧
-colorFrom: indigo
-colorTo: purple
-sdk: gradio
-sdk_version: 5.25.2
-app_file: api.py
-pinned: false
----
+
 
 # 📧 Email Classification and PII Masking API
 
