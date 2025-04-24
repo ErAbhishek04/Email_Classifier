@@ -167,6 +167,34 @@ uvicorn app.main:app --reload
 - Build a simple UI or front-end client  
 
 ---
+# Run the API Uploaded on Cloud of HuggingFace with PowerShell
+
+## Step 1: Create the JSON Data
+
+First, define the email data that you want to classify. In this example, we're using a test email with some PII.
+
+```powershell
+$json = @{
+    email_text = "Hi John, please send the contract to me at john.doe@example.com. My phone is 9876543210."
+} | ConvertTo-Json
+```
+
+## Step 2: Create the JSON Data
+```powershell
+$response = Invoke-RestMethod -Uri "https://Abhi0420-filing.hf.space/classify_email" `
+                              -Method Post `
+                              -Body $json `
+                              -ContentType "application/json"
+```
+
+## Step-III : Enter the command
+
+```powershell
+
+$response | ConvertTo-Json -Depth 5
+
+```
+
 
 ## 16. Links
 
