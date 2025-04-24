@@ -200,3 +200,4 @@ $response | ConvertTo-Json -Depth 5
 
 - **GitHub**: [https://github.com/ErAbhishek04/Email_Classifier](https://github.com/ErAbhishek04/Email_Classifier)  
 - **Live API**: [https://huggingface.co/spaces/Abhi0420/filing](https://huggingface.co/spaces/Abhi0420/filing)
+- **Report Link**:https://docs.google.com/document/d/1qTeExMJIa0HrejEsm9WZIIpK7-fX-WPnvhSGnvhz0NU/edit?usp=sharing
