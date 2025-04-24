@@ -38,7 +38,7 @@ Email_Classifier/
 ├── utils.py                       # Preprocessing and helpers
 ├── data/
 │   └── combined_emails_with_natural_pii.csv   # Sample dataset
-│   └── model.pkl                              # Pickled classifier
+│── model.pkl                              # Pickled classifier
 ├── requirements.txt              # Dependencies
 ├── Dockerfile                    # (Optional) For containerization
 ├── README.md                     # Project summary
